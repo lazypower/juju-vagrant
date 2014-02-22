@@ -43,6 +43,13 @@ vagrant provision
 ```
 your tests will be executed in place, and should be a faster run as the environment pre-setup and installation has already completed.
 
+#### When you're done
+
+```
+vagrant destroy
+```
+
+
 All bugreports against the basebox are welcome.
 
 [chuckbutler/juju-vagrant-veewee-definitions](https://github.com/chuckbutler/juju-vagrant-veewee-definitions/issues)
