@@ -54,6 +54,7 @@ your tests will be executed in place, and should be a faster run as the environm
 ```
 vagrant destroy
 ```
+To learn more about working with vagrant boxes, and how to fully remove the cached box, visit the awesome Vagrant [documentation on boxes](http://docs.vagrantup.com/v2/boxes.html)
 
 #### To keep the Vagrant Bits out of your VCS
 add the following lines to your .bzrignore or .gitignore respectively
