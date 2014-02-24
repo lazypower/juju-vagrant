@@ -55,6 +55,14 @@ your tests will be executed in place, and should be a faster run as the environm
 vagrant destroy
 ```
 
+#### To keep the Vagrant Bits out of your VCS
+add the following lines to your .bzrignore or .gitignore respectively
+
+```
+.vagrant
+Vagrantfile
+vagrant-test-runner.sh
+```
 
 All bugreports against the basebox are welcome.
 
