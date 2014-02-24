@@ -18,8 +18,8 @@ Place the Vagrant file and juju-vagrant-setup.sh in the root of your charm direc
 
 ```
 cd my_charm
-wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/Vagrantfile
-wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/vagrant-test-runner.sh
+wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/Vagrantfile
+wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/vagrant-test-runner.sh
 vagrant up
 ```
 
