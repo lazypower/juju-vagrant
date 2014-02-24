@@ -9,9 +9,15 @@ Also fetch the supporting juju-vagrant-setup.sh script - this is the driver behi
 
 ### Instructions on use:
 
-With the Vagrantfile, and juju-vagrant-setup.sh scripts in $CHARM_DIR
+Install Vagrant and Virtualbox
 
 ```
+$ sudo apt-get install virtualbox vagrant
+```
+Place the Vagrant file and juju-vagrant-setup.sh in the root of your charm directory and run vagrant up
+
+```
+cd my_charm
 wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/Vagrantfile
 wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/juju-vagrant-setup.sh
 vagrant up
