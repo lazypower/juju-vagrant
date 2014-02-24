@@ -12,6 +12,8 @@ Also fetch the supporting juju-vagrant-setup.sh script - this is the driver behi
 With the Vagrantfile, and juju-vagrant-setup.sh scripts in $CHARM_DIR
 
 ```
+wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/Vagrantfile
+wget https://gist.githubusercontent.com/chuckbutler/9146114/raw/45226c26682092062f6172658584201fe33da760/juju-vagrant-setup.sh
 vagrant up
 ```
 
