@@ -2,9 +2,7 @@
 
 ### Notes:
 
-Place the vagrant file in your $CHARM_DIR root. This may move at a later date, but for initial testing, just put it there and dont fight me on this.
-
-Also fetch the supporting juju-vagrant-setup.sh script - this is the driver behind the vagrant automation until we find a better process to execute the code. Embedding bash inline in a yaml file is supported: but the yaml parser chokes if you have #'s inline. It interprets the rest of the line as a comment regardless of scope. end. of. story.
+Place the vagrant file in your $CHARM_DIR root. **Note:** This may move at a later date. Also fetch the supporting vagrant-test-runner.sh script - this is the driver behind the vagrant automation until we find a better process to execute the code.
 
 
 ### Instructions on use:
