@@ -30,7 +30,7 @@ The script does the following things for you:
 - Installs your tests pre-setup file 00-setup (this is a convention used by charm add tests)
 - Kicks off any tests to be run against the local provider, as long as they are chmod +x
 
-If there are executable files in the tests directory - they will automatically be run.
+> If there are executable files in the tests directory - they will automatically be run.
 
 ### Workflow
 
