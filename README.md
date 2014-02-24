@@ -63,7 +63,6 @@ add the following lines to your .bzrignore or .gitignore respectively
 .vagrant
 Vagrantfile
 vagrant-test-runner.sh
-vagrant-log
 ```
 
 All bugreports against the basebox are welcome.
