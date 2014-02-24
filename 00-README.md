@@ -2,7 +2,7 @@
 
 ### Notes:
 
-Place the vagrant file in your $CHARM_DIR root. **Note:** This may move at a later date. Also fetch the supporting vagrant-test-runner.sh script - this is the driver behind the vagrant automation until we find a better process to execute the code.
+Place Vagrantfile and juju-test-runner.sh in the root of your Charm's directory (where config.yaml lives). **Note:** This may move at a later date. Also fetch the supporting vagrant-test-runner.sh script - this is the driver behind the vagrant automation until we find a better process to execute the code.
 
 
 ### Instructions on use:
