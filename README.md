@@ -10,7 +10,7 @@ Place Vagrantfile and juju-test-runner.sh in the root of your Charm's directory 
 Install Vagrant and Virtualbox
 
 ```
-$ sudo apt-get install virtualbox vagrant
+sudo apt-get install virtualbox vagrant
 ```
 Place the Vagrant file and juju-vagrant-setup.sh in the root of your charm directory and run vagrant up
 
