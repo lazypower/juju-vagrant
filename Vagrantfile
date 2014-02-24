@@ -15,5 +15,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_url = "http://dasroot.net/ubuntu-trusty-alpha2.box"
   #Perform the provisioner tasks of doing setup
   config.vm.provision "shell",
-    path: "juju-vagrant-setup.sh"
+    path: "vagrant-test-runner.sh"
 end
