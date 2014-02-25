@@ -17,7 +17,7 @@ echo "Running test-pre-setup script"
 sudo -u vagrant -H /bin/bash /vagrant/tests/00-setup
 
 echo "running tests"
-for test in `find /vagrant/tests -maxdepth 1 -perm -111 -type f \( ! -name "00-setup" \)`; do
+for test in `find /vagrant/tests -maxdepth 1 -perm -111 -type f \( ! -name "00-setup" ! -name "get-unit-info" \)`; do
     cd /vagrant
     sudo -u vagrant -H charm test -e local -v $test 
 done
